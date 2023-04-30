@@ -5,7 +5,7 @@ using namespace std;
 vector<int> sol; // solution vector
 int start = 0;   // starting node
 int esc = 8;     // escape node
-bool visited[9]; // array to keep track of visited nodes
+bool visited[9]={false}; // array to keep track of visited nodes
 
 // recursive backtracking function to solve the maze
 bool SolveMaze(vector<vector<int>> &maze, int source, bool visited[])
